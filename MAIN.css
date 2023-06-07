@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: cyan;
+    color: darkgray;
+    min-height: 100vh;
+}
+h1{
+    color: blue;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+input{
+    border: none;
+}
+#inputtask{
+    background-color: deeppink;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    padding: 1rem;
+    width: 300px;
+    color: ghostwhite;
+}
+.addbtn{
+    width: 25%;
+    color: darkgreen;
+    background-color: fuchsia;
+}
+ul{
+    margin: 0;
+    padding:0;
+}
+/*styling the list*/
+ul li{
+    cursor: pointer;
+    background: #eee;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    transition: 0.2s;
+    font-size: 18px;
+}
+/* when clicked on add a bacckground color an strike through*/
+ul li.checked{
+    background: gray;
+    color: darkkhaki;
+    text-decoration: line-through;
+}
+.close{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
